@@ -28,7 +28,7 @@ GET(paste0("https://www.kaggle.com/api/v1/datasets/download/", dataset_name),
 # Unzip the downloaded file
 unzip("life_expectancy_data.zip", exdir = "life_expectancy_data")
 
-# Read the life expectancy data (assuming the file is named 'life_expectancy.csv')
+# Read the life expectancy data (file is named 'life_expectancy.csv')
 life_expectancy_data <- read_csv("life_expectancy_data/life_expectancy.csv")
 
 # ===============================
